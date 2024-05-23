@@ -2,7 +2,7 @@ import React from "react";
 
 const Marquee = () => {
   return (
-    <div className="bg-black py-12">
+    <div className="bg-black py-6 lg:py-12">
       <div className="flex overflow-hidden">
         <div className="flex w-fit gap-5 place-items-center animate-loop-scroll pr-4">
           <p className="text-3xl text-nowrap text-white font-semibold">

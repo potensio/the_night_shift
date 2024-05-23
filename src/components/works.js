@@ -12,10 +12,10 @@ const Work = () => {
       </span>
 
       <div className="flex flex-row gap-5 pl-6 overflow-scroll lg:pl-20">
-        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] h-[400px]"></div>
-        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] h-[400px]"></div>
-        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] h-[400px]"></div>
-        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] h-[400px]"></div>
+        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] lg:h-[400px]"></div>
+        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] lg:h-[400px]"></div>
+        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] lg:h-[400px]"></div>
+        <div className="w-[320px] h-[320px] bg-slate-300 shrink-0 rounded-2xl lg:w-[560px] lg:h-[400px]"></div>
       </div>
     </div>
   );
