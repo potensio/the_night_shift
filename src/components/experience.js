@@ -32,7 +32,7 @@ const Experience = () => {
           </svg>
         </div>
         <div className="flex flex-1 flex-col justify-center p-6 items-center gap-8 z-10 lg:p-20">
-          <h3 className="text-center text-white text-5xl font-black">
+          <h3 className="text-center text-white text-3xl font-black sm:text-4xl lg:text-5xl">
             TAKE ADVANTAGE OF MY <br />5 YEARS BUBBLING EXPERIENCE
           </h3>
           <div className="flex flex-col gap-2 w-fit items-center ">
