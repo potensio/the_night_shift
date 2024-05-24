@@ -7,11 +7,11 @@ const Hero = () => {
         <h1 className="text-5xl font-extrabold max-w-[920px] md:text-6xl lg:text-[80px]">
           Bubble Development, as a Service
         </h1>
-        <p className="text-l font-semibold max-w-[800px] md:text-xl lg:text-2xl">
+        <p className="text-xl font-semibold max-w-[800px] lg:text-2xl">
           Bring your idea to life with a responsive and fully functional app,
           delivered at lightning speed, completely asynchronous.
         </p>
-        <button className="w-fit text-l font-semibold text-green-600 border-[3px] rounded-[18px] border-[#101010] py-2 px-4 main-cta-shadow lg:py-4 lg:px-6 md:text-xl lg:text-2xl">
+        <button className="w-fit text-xl font-semibold text-green-600 border-[3px] rounded-[18px] border-[#101010] py-3 px-5 main-cta-shadow lg:py-4 lg:px-6 md:text-xl lg:text-2xl">
           BOOK A CALL
         </button>
       </div>
