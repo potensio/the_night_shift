@@ -53,12 +53,6 @@ const Marquee = () => {
           <p className="text-xl text-nowrap text-orange-700 font-semibold h-[16px] sm:text-2xl lg:text-3xl">
             *
           </p>
-          <p className="text-xl text-nowrap text-white font-semibold shrink-0 sm:text-2xl lg:text-3xl">
-            To Do App
-          </p>
-          <p className="text-xl text-nowrap text-orange-700 font-semibold h-[16px] sm:text-2xl lg:text-3xl">
-            *
-          </p>
         </div>
         <div
           className="flex w-fit gap-5 place-items-center animate-loop-scroll pr-4"
@@ -108,12 +102,6 @@ const Marquee = () => {
           </p>
           <p className="text-xl text-nowrap text-white font-semibold shrink-0 sm:text-2xl lg:text-3xl">
             AI Wrapper
-          </p>
-          <p className="text-xl text-nowrap text-orange-700 font-semibold h-[16px] sm:text-2xl lg:text-3xl">
-            *
-          </p>
-          <p className="text-xl text-nowrap text-white font-semibold shrink-0 sm:text-2xl lg:text-3xl">
-            To Do App
           </p>
           <p className="text-xl text-nowrap text-orange-700 font-semibold h-[16px] sm:text-2xl lg:text-3xl">
             *

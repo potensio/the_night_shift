@@ -7,3 +7,11 @@
 * {
   @apply tracking-tightest;
 }
+
+.main-cta-shadow {
+  box-shadow: 8px 12px 0px #101010;
+}
+
+.main-cta-shadow:hover {
+  box-shadow: 4px 6px 0px #101010;
+}

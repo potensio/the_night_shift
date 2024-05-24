@@ -2,17 +2,19 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center min-h-8 gap-4 py-32 lg:gap-8 ">
-      <p className="text-xl font-semibold sm:text-2xl lg:text-3xl">
-        Hi, I’m Hanif.
-      </p>
-      <h1 className="text-5xl font-black text-center sm:text-6xl lg:text-8xl">
-        A VISUAL DEVELOPER
-        <br />& DESIGNER
-      </h1>
-      <button className="flex justify-center text-l font-semibold text-green-600 border-4 rounded-full border-green-600 py-3 px-8 sm:text-xl">
-        BOOK A CALL
-      </button>
+    <div className="flex flex-1 px-5 py-16 sm:px-8 lg:px-20 lg:py-32">
+      <div className="flex flex-1 flex-col gap-4 lg:gap-8">
+        <h1 className="text-5xl font-extrabold max-w-[920px] md:text-6xl lg:text-[80px]">
+          Bubble Development, as a Service
+        </h1>
+        <p className="text-l font-semibold max-w-[800px] md:text-xl lg:text-2xl">
+          Bring your idea to life with a responsive and fully functional app,
+          delivered at lightning speed, completely asynchronous.
+        </p>
+        <button className="w-fit text-l font-semibold text-green-600 border-[3px] rounded-[18px] border-[#101010] py-2 px-4 main-cta-shadow lg:py-4 lg:px-6 md:text-xl lg:text-2xl">
+          BOOK A CALL
+        </button>
+      </div>
     </div>
   );
 };
