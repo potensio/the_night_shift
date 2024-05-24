@@ -9,9 +9,5 @@
 }
 
 .main-cta-shadow {
-  box-shadow: 8px 12px 0px #101010;
-}
-
-.main-cta-shadow:hover {
-  box-shadow: 4px 6px 0px #101010;
+  box-shadow: 6px 10px 0px #101010;
 }
