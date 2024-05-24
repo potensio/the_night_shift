@@ -11,3 +11,11 @@
 .main-cta-shadow {
   box-shadow: 6px 10px 0px #101010;
 }
+
+.negative-cta-shadow {
+  box-shadow: 6px 10px 0px #ffffff;
+}
+
+h3 {
+  line-height: 130%;
+}
