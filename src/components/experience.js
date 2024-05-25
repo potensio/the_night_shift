@@ -9,7 +9,7 @@ const Experience = () => {
           <div>
             <img
               src="code-learner.svg"
-              className="relative scale-[1.6] pl-0 sm:pl-10"
+              className="min-w-[400px] relative scale-[1.6] pl-0 sm:pl-10"
               alt="Logo"
             />
           </div>

@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <div className="flex flex-1 px-5 py-16 sm:px-8 lg:px-20 lg:py-32">
       <div className="flex flex-1 flex-col gap-4 lg:gap-4">
-        <h1 className="text-5xl font-extrabold max-w-[920px] md:text-6xl lg:text-[80px]">
-          Bubble Development, as a Service
+        <h1 className="text-5xl font-extrabold max-w-[720px] md:text-6xl lg:text-[80px]">
+          Bubble Developer, as a Service
         </h1>
         <p className="text-xl font-semibold max-w-[800px] lg:text-2xl">
           Bring your idea to life with a responsive and fully functional app,

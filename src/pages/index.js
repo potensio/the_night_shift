@@ -7,6 +7,7 @@ import Work from "@/components/works";
 import Marquee from "@/components/marquee";
 import Process from "@/components/process";
 import Experience from "@/components/experience";
+import Benefit from "@/components/benefits";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Marquee />
         <Process />
         <Experience />
+        <Benefit />
       </div>
     </div>
   );

@@ -1,7 +1,3 @@
-// tailwind.config.js
-
-const { transform } = require("next/dist/build/swc");
-
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -21,7 +17,7 @@ module.exports = {
       letterSpacing: {
         tightest: "-0.04em", // 4% is equal to 0.04em
       },
-    },
+    }, // <-- Added closing curly brace here
   },
   plugins: [],
 };
