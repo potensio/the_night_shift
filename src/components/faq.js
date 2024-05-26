@@ -1,0 +1,100 @@
+import React from "react";
+
+const FAQ = () => {
+  return (
+    <div className="flex flex-1 flex-col gap-16 py-20 px-5 sm:px-8 lg:py-32 lg:px-20 bg-[#FAFAFA]">
+      <h3 className="text-4xl font-black w-fit self-center">FAQ</h3>
+      <div className="flex flex-1 flex-col gap-1">
+        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+          <summary className="flex flex-1 justify-between cursor-pointer">
+            <h4 className="text-xl font-semibold">What is Bubble.io?</h4>
+            <img src="caret-down.svg" className="self-start"></img>
+          </summary>
+          <p className="text-lg mt-2">
+            No-code development is the process of creating digital applications
+            without the need for traditional coding. It leverages intuitive
+            platforms that offer visual interfaces and configuration tools,
+            enabling the development of software applications more efficiently.
+          </p>
+        </details>
+        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+          <summary className="flex flex-1 justify-between cursor-pointer">
+            <h4 className="text-xl font-semibold">
+              What if I'm not happy with the results??
+            </h4>
+            <img src="caret-down.svg" className="self-start"></img>
+          </summary>
+          <p className="text-lg mt-2">
+            If you're not thrilled with the initial outcome, no worries! We're
+            here to revamp, refine, and retouch as much as needed, all based on
+            your input. Think of us as your creative partners, in a
+            give-and-take until you're beaming with pride over the final piece.
+            It's really that straightforward.
+          </p>
+        </details>
+        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+          <summary className="flex flex-1 justify-between cursor-pointer">
+            <h4 className="text-xl font-semibold">
+              What is the turnaround time for completing a project?
+            </h4>
+            <img src="caret-down.svg" className="self-start"></img>
+          </summary>
+          <p className="text-lg mt-2">
+            The time it takes to wrap up a project varies with its complexity
+            and your specific requirements. But here’s the deal: thanks to our
+            nimble process, you’ll see the first sparks of your project come to
+            life within the first week. Speed and excellence are what we aim
+            for, and you’ll be getting updates every two days to make sure
+            you’re always in the know. Smooth and swift, just how you like it.
+            Want to know a specific timeline? Book a free 15-min intro call and
+            we can discuss it all.
+          </p>
+        </details>
+        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+          <summary className="flex flex-1 justify-between cursor-pointer">
+            <h4 className="text-xl font-semibold">
+              Can I cancel or pause my subscription at any time?
+            </h4>
+            <img src="caret-down.svg" className="self-start"></img>
+          </summary>
+          <p className="text-lg mt-2">
+            Absolutely, we get that things can shift. Our subscriptions are
+            chill and flexible – feel free to cancel whenever. We want this to
+            be a stress-free experience, so you can make decisions with
+            confidence. No strings attached, just easy vibes.
+          </p>
+        </details>
+        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+          <summary className="flex flex-1 justify-between cursor-pointer">
+            <h4 className="text-xl font-semibold">
+              Is there any work you don't cover?
+            </h4>
+            <img src="caret-down.svg" className="self-start"></img>
+          </summary>
+          <p className="text-lg mt-2">
+            No-code development is the process of creating digital applications
+            without the need for traditional coding. It leverages intuitive
+            platforms that offer visual interfaces and configuration tools,
+            enabling the development of software applications more efficiently.
+          </p>
+        </details>
+        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+          <summary className="flex flex-1 justify-between cursor-pointer">
+            <h4 className="text-xl font-semibold">
+              What if I'm not happy with the results?
+            </h4>
+            <img src="caret-down.svg" className="self-start"></img>
+          </summary>
+          <p className="text-lg mt-2">
+            No-code development is the process of creating digital applications
+            without the need for traditional coding. It leverages intuitive
+            platforms that offer visual interfaces and configuration tools,
+            enabling the development of software applications more efficiently.
+          </p>
+        </details>
+      </div>
+    </div>
+  );
+};
+
+export default FAQ;

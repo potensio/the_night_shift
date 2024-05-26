@@ -6,7 +6,7 @@ const Benefit = () => {
       <div className="flex flex-col gap-8 lg:flex-row lg:gap-20">
         <div className="flex flex-col max-w-[360px] gap-6">
           <h2 className="text-4xl font-black sm:text-5xl lg:text-6xl">
-            Subscribe with - <br /> benefits
+            Subscribe with - benefits
           </h2>
           <p className="text-xl font-semibold">
             My service replaces unreliable freelancers and expensive agencies

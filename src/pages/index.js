@@ -8,13 +8,14 @@ import Marquee from "@/components/marquee";
 import Process from "@/components/process";
 import Experience from "@/components/experience";
 import Benefit from "@/components/benefits";
+import FAQ from "@/components/faq";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className="flex justify-center bg-slate-100 ">
-      <div className="flex flex-1 flex-col max-w-[1560px] mb-96 bg-white overflow-hidden">
+      <div className="flex flex-1 flex-col max-w-[1560px] bg-white overflow-hidden">
         <Header />
         <Hero />
         <Work />
@@ -22,6 +23,7 @@ export default function Home() {
         <Process />
         <Experience />
         <Benefit />
+        <FAQ />
       </div>
     </div>
   );

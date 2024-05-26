@@ -21,14 +21,14 @@ const Experience = () => {
                 Unlimited projects, pause & cancel anytime.
               </h3>
               <h3 className="text-[48px] font-extrabold text-center text-white mt-8">
-                $1,495
+                $1,685
               </h3>
               <p className="hidden text-l font-medium text-center text-white sm:block lg:text-xl">
-                Leverage my 5 years of joyful experience in building <br />
-                performant, and secure bubble apps.
+                Leverage my 5 years of joyful experience in building performant,
+                and secure bubble apps.
               </p>
               <button className="w-fit text-xl font-semibold text-white border-[3px] rounded-[18px] border-white py-3 px-5 negative-cta-shadow mt-8 lg:py-4 lg:px-6 md:text-xl lg:text-2xl">
-                How it works
+                Subscribe
               </button>
             </div>
           </div>
