@@ -8,6 +8,16 @@
   @apply tracking-tightest;
 }
 
+summary {
+  list-style: none;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
 body {
   min-width: 375px;
   user-select: none;
