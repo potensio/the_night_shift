@@ -9,7 +9,7 @@ const FAQ = () => {
       <div className="flex flex-1 flex-col gap-1">
         <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
-            <h4 className="text-l font-semibold sm:text-xl">
+            <h4 className="text-lg font-semibold sm:text-xl">
               What is Bubble.io?
             </h4>
             <img
@@ -26,7 +26,7 @@ const FAQ = () => {
         </details>
         <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
-            <h4 className="text-l font-semibold sm:text-xl">
+            <h4 className="text-lg font-semibold sm:text-xl">
               What if I'm not happy with the results??
             </h4>
             <img
@@ -44,7 +44,7 @@ const FAQ = () => {
         </details>
         <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
-            <h4 className="text-l font-semibold sm:text-xl">
+            <h4 className="text-lg font-semibold sm:text-xl">
               What is the turnaround time for completing a project?
             </h4>
             <img
@@ -65,7 +65,7 @@ const FAQ = () => {
         </details>
         <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
-            <h4 className="text-l font-semibold sm:text-xl">
+            <h4 className="text-lg font-semibold sm:text-xl">
               Can I cancel or pause my subscription at any time?
             </h4>
             <img
@@ -82,7 +82,7 @@ const FAQ = () => {
         </details>
         <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
-            <h4 className="text-l font-semibold sm:text-xl">
+            <h4 className="text-lg font-semibold sm:text-xl">
               Is there any work you don't cover?
             </h4>
             <img
@@ -99,7 +99,7 @@ const FAQ = () => {
         </details>
         <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
-            <h4 className="text-l font-semibold sm:text-xl">
+            <h4 className="text-lg font-semibold sm:text-xl">
               What if I'm not happy with the results?
             </h4>
             <img
