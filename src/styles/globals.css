@@ -8,6 +8,10 @@
   @apply tracking-tightest;
 }
 
+body {
+  min-width: 375px;
+}
+
 .main-cta-shadow {
   box-shadow: 6px 10px 0px #101010;
 }

@@ -14,10 +14,10 @@ const Benefit = () => {
             blow your mind.
           </p>
         </div>
-        <div className="flex gap-4 lg:gap-10">
+        <div className="flex gap-2 mx-[-16px] sm:gap-4 lg:gap-10">
           <div className="flex flex-col gap-2 sm:gap-4 lg:gap-6">
             <img src="speed-go-fast.svg" className="aspect-square" alt="Logo" />
-            <p className="text-l font-black text-center md:text-xl lg:text-2xl">
+            <p className="text-xl font-black text-center md:text-2xl">
               Quick
               <br />
               Turnaround
@@ -29,7 +29,7 @@ const Benefit = () => {
               className="aspect-square"
               alt="Logo"
             />
-            <p className="text-l font-black text-center md:text-xl lg:text-2xl">
+            <p className="text-xl font-black text-center md:text-2xl">
               Flat
               <br />
               monthly fee
@@ -37,7 +37,7 @@ const Benefit = () => {
           </div>
           <div className="flex flex-col gap-2 sm:gap-4 lg:gap-6">
             <img src="bug.svg" className="aspect-square" alt="Logo" />
-            <p className="text-l font-black text-center md:text-xl lg:text-2xl">
+            <p className="text-xl font-black text-center md:text-2xl">
               30 days
               <br />
               Support
