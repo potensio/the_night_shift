@@ -2,15 +2,20 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="flex flex-1 flex-col gap-16 py-20 px-5 sm:px-8 lg:py-32 lg:px-20 bg-[#FAFAFA]">
-      <h3 className="text-3xl font-black w-fit self-center sm:text-4xl">FAQ</h3>
+    <div className="flex flex-1 flex-col gap-8 py-20 px-3 sm:px-8 sm:gap-16 lg:py-32 lg:px-20 bg-[#FAFAFA]">
+      <h3 className="text-3xl font-black w-fit self-center sm:text-4xl">
+        Frequently Asked
+      </h3>
       <div className="flex flex-1 flex-col gap-1">
-        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+        <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
             <h4 className="text-l font-semibold sm:text-xl">
               What is Bubble.io?
             </h4>
-            <img src="caret-down.svg" className="self-start"></img>
+            <img
+              src="caret-down.svg"
+              className="self-start aspect-square w-7"
+            ></img>
           </summary>
           <p className="text-base mt-2 sm:text-lg">
             No-code development is the process of creating digital applications
@@ -19,12 +24,15 @@ const FAQ = () => {
             enabling the development of software applications more efficiently.
           </p>
         </details>
-        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+        <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
             <h4 className="text-l font-semibold sm:text-xl">
               What if I'm not happy with the results??
             </h4>
-            <img src="caret-down.svg" className="self-start"></img>
+            <img
+              src="caret-down.svg"
+              className="self-start aspect-square w-7"
+            ></img>
           </summary>
           <p className="text-base mt-2 sm:text-lg">
             If you're not thrilled with the initial outcome, no worries! We're
@@ -34,12 +42,15 @@ const FAQ = () => {
             It's really that straightforward.
           </p>
         </details>
-        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+        <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
             <h4 className="text-l font-semibold sm:text-xl">
               What is the turnaround time for completing a project?
             </h4>
-            <img src="caret-down.svg" className="self-start"></img>
+            <img
+              src="caret-down.svg"
+              className="self-start aspect-square w-7"
+            ></img>
           </summary>
           <p className="text-base mt-2 sm:text-lg">
             The time it takes to wrap up a project varies with its complexity
@@ -52,12 +63,15 @@ const FAQ = () => {
             we can discuss it all.
           </p>
         </details>
-        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+        <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
             <h4 className="text-l font-semibold sm:text-xl">
               Can I cancel or pause my subscription at any time?
             </h4>
-            <img src="caret-down.svg" className="self-start"></img>
+            <img
+              src="caret-down.svg"
+              className="self-start aspect-square w-7"
+            ></img>
           </summary>
           <p className="text-base mt-2 sm:text-lg">
             Absolutely, we get that things can shift. Our subscriptions are
@@ -66,12 +80,15 @@ const FAQ = () => {
             confidence. No strings attached, just easy vibes.
           </p>
         </details>
-        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+        <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
             <h4 className="text-l font-semibold sm:text-xl">
               Is there any work you don't cover?
             </h4>
-            <img src="caret-down.svg" className="self-start"></img>
+            <img
+              src="caret-down.svg"
+              className="self-start aspect-square w-7"
+            ></img>
           </summary>
           <p className="text-base mt-2 sm:text-lg">
             No-code development is the process of creating digital applications
@@ -80,12 +97,15 @@ const FAQ = () => {
             enabling the development of software applications more efficiently.
           </p>
         </details>
-        <details className="p-4 open:bg-[#E5E5E5] max-w-5xl self-center w-full rounded-xl transition-all">
+        <details className="px-4 pt-4 open:bg-[#E5E5E5] open:pb-4 max-w-5xl self-center w-full rounded-xl transition-all">
           <summary className="flex flex-1 justify-between cursor-pointer">
             <h4 className="text-l font-semibold sm:text-xl">
               What if I'm not happy with the results?
             </h4>
-            <img src="caret-down.svg" className="self-start"></img>
+            <img
+              src="caret-down.svg"
+              className="self-start aspect-square w-7"
+            ></img>
           </summary>
           <p className="text-base mt-2 sm:text-lg">
             No-code development is the process of creating digital applications
