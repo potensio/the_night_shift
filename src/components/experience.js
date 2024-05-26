@@ -14,7 +14,7 @@ const Experience = () => {
             />
           </div>
         </div>
-        <div className="absolute flex px-8 py-16 h-fit left-0 right-0 bottom-0 top-0 sm:py-14 lg:px-20 lg:py-16 ">
+        <div className="absolute flex px-8 py-14 h-fit left-0 right-0 bottom-0 top-0 sm:py-16 lg:px-20 ">
           <div className="flex flex-1 justify-center xl:justify-end">
             <div className="flex flex-1 flex-col items-center max-w-[560px]">
               <h3 className="text-[24px] font-extrabold text-center text-white sm:text-[30px] lg:text-[40px]">

@@ -8,6 +8,10 @@
   @apply tracking-tightest;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 summary {
   list-style: none;
   list-style-type: none;
