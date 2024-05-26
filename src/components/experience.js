@@ -20,7 +20,7 @@ const Experience = () => {
               <h3 className="text-[24px] font-extrabold text-center text-white sm:text-[30px] lg:text-[40px]">
                 Unlimited projects, pause & cancel anytime.
               </h3>
-              <h3 className="text-[32px] font-extrabold text-center text-white mt-8 sm:text-[40px] lg:text-[48px]">
+              <h3 className="text-[36px] font-extrabold text-center text-white mt-8 sm:text-[40px] lg:text-[48px]">
                 $1,685
               </h3>
               <p className="block text-l font-medium text-center text-white sm:block lg:text-xl">
