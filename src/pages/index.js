@@ -9,6 +9,7 @@ import Process from "@/components/process";
 import Experience from "@/components/experience";
 import Benefit from "@/components/benefits";
 import FAQ from "@/components/faq";
+import MySwiper from "@/components/MySwiper";
 
 const inter = Inter({ subsets: ["latin"] });
 

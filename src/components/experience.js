@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div className="px-6 lg:px-20">
-      <div className="relative flex flex-1 h-[428px] bg-black rounded-2xl  lg:h-[480px]">
+    <div className="px-4 justify-center lg:px-10 sm:flex ">
+      <div className="relative flex flex-1 h-[428px] bg-black rounded-2xl lg:h-[480px] max-w-7xl ">
         <div className="flex flex-1 px-12 justify-center overflow-hidden opacity-20 md:px-28 xl:opacity-100 xl:justify-start">
           <div>
             <img

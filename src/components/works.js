@@ -12,10 +12,10 @@ const Work = () => {
       </span>
 
       <div className="flex flex-row gap-5 pl-6 overflow-scroll lg:pl-20">
-        <div className="w-[240px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[320px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
-        <div className="w-[240px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[320px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
-        <div className="w-[240px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[320px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
-        <div className="w-[240px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[320px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
+        <div className="w-[320px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[426px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
+        <div className="w-[320px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[426px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
+        <div className="w-[320px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[426px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
+        <div className="w-[320px] h-[240px] bg-slate-300 shrink-0 rounded-2xl sm:w-[426px] sm:h-[320px] lg:w-[560px] lg:h-[400px]"></div>
       </div>
     </div>
   );
