@@ -25,3 +25,55 @@ body {
     text-wrap: balance;
   }
 }
+
+h1,
+h2,
+h3,
+h4 {
+  color: #171717;
+}
+
+p {
+  color: #171717;
+  font-size: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+summary {
+  list-style: none;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.main-cta-shadow {
+  box-shadow: 6px 10px 0px #101010;
+}
+
+.negative-cta-shadow {
+  box-shadow: 6px 10px 0px #ffffff;
+}
+
+h3 {
+  line-height: 130%;
+}
+
+.swiper {
+  max-width: 320px;
+  height: fit-content;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 32px;
+  justify-content: center;
+  background-color: white;
+}
