@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Benefits = () => {
   return (
     <div className="py-20 px-5 sm:px-8 lg:py-32 lg:px-20">
@@ -14,7 +16,11 @@ export const Benefits = () => {
         </div>
         <div className="flex gap-2 mx-[-16px] sm:gap-4 lg:gap-10">
           <div className="flex flex-col gap-2 sm:gap-4 lg:gap-6">
-            <img src="speed-go-fast.svg" className="aspect-square" alt="Logo" />
+            <Image
+              src="speed-go-fast.svg"
+              className="aspect-square"
+              alt="Logo"
+            />
             <p className="text-lg font-black text-center sm:text-xl md:text-2xl">
               Quick
               <br />
@@ -22,7 +28,7 @@ export const Benefits = () => {
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:gap-4 lg:gap-6">
-            <img
+            <Image
               src="stack-of-money.svg"
               className="aspect-square"
               alt="Logo"
@@ -34,7 +40,7 @@ export const Benefits = () => {
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:gap-4 lg:gap-6">
-            <img src="bug.svg" className="aspect-square" alt="Logo" />
+            <Image src="bug.svg" className="aspect-square" alt="Logo" />
             <p className="text-lg font-black text-center sm:text-xl md:text-2xl">
               30 days
               <br />
